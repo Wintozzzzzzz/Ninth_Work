@@ -8,35 +8,35 @@
 
         // 2. ერთ ფუნქციაში მეორეს გამოყენება
 
-function priceCategoryFunc(price) {
-    if(price > 50) {
-        return "Expensive";
-    }
-    else if(price >=20 && price <=50) {
-        return "Medium"
-    }
-    else {
-        return "Cheap"
-    }
-}
+// function priceCategoryFunc(price) {
+//     if(price > 50) {
+//         return "Expensive";
+//     }
+//     else if(price >=20 && price <=50) {
+//         return "Medium"
+//     }
+//     else {
+//         return "Cheap"
+//     }
+// }
 
-function displayInfo(price, categoryFunc) {
-    let category = categoryFunc(price);
+// function displayInfo(price, categoryFunc) {
+//     let category = categoryFunc(price);
 
-    if(category === "Expensive") {
-        console.log("The item is too Expensive");
-    }
-    else if(category === "Medium") {
-        console.log("The item price is normal");
-    }
-    else {
-        console.log("The item price is too cheap");
-    }
-}
+//     if(category === "Expensive") {
+//         console.log("The item is too Expensive");
+//     }
+//     else if(category === "Medium") {
+//         console.log("The item price is normal");
+//     }
+//     else {
+//         console.log("The item price is too cheap");
+//     }
+// }
 
-let itemPrice = prompt("შეიყვანეთ ნივთის ფასი:")
+// let itemPrice = prompt("შეიყვანეთ ნივთის ფასი:")
 
-displayInfo(itemPrice, priceCategoryFunc)
+// displayInfo(itemPrice, priceCategoryFunc)
 
         // 3. ყველაზე დიდი რიცხვი მასივში
 
